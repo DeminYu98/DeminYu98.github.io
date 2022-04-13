@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Welcome 👋</title>
+    <link>https://deminyu98.github.io/series/</link>
+    <description>Recent content in Series on Welcome 👋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Demin Yu 2021</copyright>
+    <lastBuildDate>Sat, 13 Nov 2021 09:28:13 +0800</lastBuildDate><atom:link href="https://deminyu98.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper——《MAE》</title>
+      <link>https://deminyu98.github.io/series/mae/mae/</link>
+      <pubDate>Sat, 13 Nov 2021 09:28:13 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/mae/mae/</guid>
+      <description>Masked Autoencoders Are Scalable Vision Learners </description>
+    </item>
+    
+    <item>
+      <title>Awesome Dialogue Survey</title>
+      <link>https://deminyu98.github.io/series/awesome_dialogue_survey/awesome_dialogue_survey/</link>
+      <pubDate>Sat, 06 Nov 2021 18:14:02 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/awesome_dialogue_survey/awesome_dialogue_survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper———《Swim Transformer》</title>
+      <link>https://deminyu98.github.io/series/paper_swim_transformer/swim_transf/</link>
+      <pubDate>Thu, 14 Oct 2021 14:05:27 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/paper_swim_transformer/swim_transf/</guid>
+      <description>Abstract SwimTransformer 目的是将Transformer引入到CV领域，作为CV的通用backbone，甚至替代CNN。考虑到文本任务和图像任务的不同特点，SwimTransformer的主要思路是基于「滑动窗口」的「分层」Transformer。Swim约束self-attention在非重叠窗口计算，另外允许跨窗口联系，具有更高效率，而且复杂度与图像大小线性相关。实验证明，将Swim代替CNN在多种CV任务上效果都有所提升。Swim代码链接
+Introduction Swim类似多层CNN逐层计算归结相邻的“Attention”区域。每层中，划分多个local windows，每个local window包含多个patch。local window是最小单位，类似于卷积核？每层中self attention计算一个patch中的多个local window。因此会有线性复杂度。而先前的Visual Transformer是整个图像的self attention，平方复杂度。
+Transformer从NLP领域迁移到CV领域的主要挑战在于两种模态的差异。其一是处理规模：文本的基本处理单位是一句话的token，而图像的单位是大规模像素，token规模可以固定，但图像像素却不能。其二是分辨率：Transformer对于处理高分辨率图像的复杂度是平方的。基于此提出的Swim Transformer，能够构造层次特征映射，且具备线性复杂度。
+此外，Swim的关键设计在于「滑动窗口」。滑动窗口在当前层的local windowns之间构建联系。
+Method 整体过程  对于RGB图像，分成多个$4\times 4$ 大小的patch，这里的patch作用类似于token。将patch concat成$4\times 4\times 3=48$作为当前patch的特征，接入全连接后经过SwimT Block，可以映射到任意维特征。这样，图像被划分为 $\frac{H}{4}\times \frac{W}{4}\times C$的特征向量。 随着网络增加，设置Patch merge layer，对同一个local window内，也就是相邻的四个patch整合特征信息，同时增加每个token特征维 随后，SwimT Block负责对划分的local window内的patch（也就是token）作Attention计算。这里的SwimT Block分为两种类型：普通窗口的MSA（Masked Self-Attention）和滑动窗口的MSA  W-MSA:计算同一window内多个patch的Attention SW-MSA：窗口在window间移动捕获window之间的Attention    滑动窗口SwimT 将整个图像的patch划分多个window可以有效降低复杂度，但是单纯的对window计算，没有办法获得window之间的信息，由此引入滑动窗口机制。
+在两个相邻的SwimT Block间，如上图所示，前后会移动window位置，具体移动策略下文阐述。移动后，同样对window内的patch作计算，此时的计算结果就包含了先前相邻window的共同信息。
+具体的移动策略可称之为Cycle shift。前后SwimT Block中window大小是不变的，将window区域作移动操作，但是移动后，window数量会增多，而且window区域的大小发生改变，这就需要对不相邻的window互相补充，然后计算对应的MASK，只计算相邻window的信息。
+Cycle shift的移动策略参考自知乎
+滑动窗口的意义 与SwimT工作最相关的是ViT，它同样试图将Transformer引入CV，提出对图像划分patch作Attention。这样存在的问题是对图像全局的patch作计算，复杂度高。
+SwimT改进思路是将划分的patch分组成不同的window，参考CNN引入局部性思想：以window为单位计算Attention。然而如此不能想ViT那样获得全局信息，所以计算完local window后，设计滑动窗口来获得相邻window的信息。又凭借分层网络的特点，随着网络深度增加，利用滑动窗口可以获得图像的全局信息。
+SwimT工作目标是设计一种CV的通用骨干网络代替CNN，而在各种CV任务中将CNN换为SwimT，实现更高的的SOTA。
+读这篇文章，是想学习下Best Paper的行文逻辑，确实牛哇~</description>
+    </item>
+    
+    <item>
+      <title>Paper——《A Review on Deep Learning Techniques for Video Prediction》</title>
+      <link>https://deminyu98.github.io/series/paper_videopred/video_predict/</link>
+      <pubDate>Sun, 03 Oct 2021 19:17:41 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/paper_videopred/video_predict/</guid>
+      <description>A Review on Deep Learning Techniques for Video Prediction Abstract 基于深度学习的视频预测技术正成为一个 promising 的研究方向。本质上，视频预测作为一种自监督学习任务，需要具备从自然视频序列中提取有意义的潜在模式的表示学习的能力，这些潜在模式主要是视频序列中的时空序列特征。
+1、Introduction 通常来讲，对未来事件的预测是智能决策系统的关键组成部分。与人相比，机器对视频未来的预测受到多方面影响，如遮挡、视角移动、光照条件、杂波或物体变形。
+视频预测主要应用于机器人领域、自动驾驶领域、行为预测领域等。对于机器人领域，基于有条件的视频预测，机器人可以实现基于视觉的动作决策和路径规划，甚至提高基于强化学习的机器人在未知环境中的能力。在自动驾驶领域，对交通情况的轨迹预测可以有效估计未来事件。其他应用场景也包括：实例/语义分割预测、异常事件检测、气象预测和视频差值等方面。
+2、Video Prediction 介绍 问题描述 从 predictive coding paradigm角度来看，视频预测任务可以定义为根据给定的 n 帧图像 X，预测后续 m 帧图像 Y。即给定视频序列$X=(X_{t-n},&amp;hellip;,X_{t-1},X_t)$，其中$X_t\in R^{w \times h\times c}$，$w,h,c$代表视频帧的长宽以及色彩通道数目，目标是预测接下来 m 帧图像$Y=(\hat{Y_{t+1}},\hat{Y_{t+2}},&amp;hellip;,\hat{Y_{t+m}})。
+需要注意的是，与其他的视频/图像生成任务不同，视频预测的图像帧生成需要根据先前帧的表示作为条件。模型需要具备充分的表示学习的能力，将先前帧的特征充分学习到，才能实现效果良好的预测
+时间维度处理 不同于静态图像，视频序列包含了在时间维度上的复杂变换和动作模式。模型需要能够提取描述视频序列动作的视觉特征，对视频序列的时序相关性建模，提高预测帧的动作连续性。
+随机性处理 在给定上下文图像，预测物体后续状态的任务中，通常会假设理想的物理环境的场景，这样物体可能会匀速运动，实现准确预测。使用这种假设来缩小预测空间以处理不确定性。然而这种假设对于自然视频是不适合的。因为通常来讲，未来状态的可能性存在多种可能的分布模式，即存在多种有效的可能的未来状态。
+目前多数深度学习模型是确定性的预测，因为对于大多数场景，如车辆轨迹、合成数据集（Moving MINST）和视频游戏等，短时间内可以视为确定性事件。这些场景与自然视频并不完全相同。然而，当产生多种等可能性的预测时，确定性模型会学着「平均」多种可能的输出。这种「平均」效果取决于损失函数的选择，在实际输出中通常表现为换面的模糊，特别是在长时预测场景中。
+解决平均的模糊输出可以构建针对性的损失函数来减轻模糊效果，但是本质上确定性模型无法处理真实世界中的混沌状态，因此有必要在模型中引入不确定性。
+损失函数的设计 在常见的预测任务中的损失函数：Pixel-wise losses(如 Cross Entropy)、$l_2、l_1$以及 MSE loss 等在确定性场景（合成视频、游戏视频）中可以有效使用，但在自然视频中难以获得好的效果。例如在多种等可能的输出情况下，Pixel-wise loss 会通过模糊预测来适应不确定性，该损失函数假设数据服从高斯分布。即 MSE 等 loss 会通过平均像素点来最小化 MSE误差，因为该误差是全局最优值，从而避免了精细的细节，如面部表情等微妙的特征，这些特征会被认为成特征。换句话说，确定性的损失函数在模糊预测中会平均多个合理的结果。问题在于设计损失函数设计多峰分布（multimodal distribution）。
+许多视频预测任务的优化目标是在不确定场景时减小模糊性。主要方式可以包括：改进损失函数；基于对抗的训练方式；更高维度特征空间表述问题以优化训练；探索概率替代方案。
+然而，尽管已取得较好的处理模糊问题的效果，现有的多数损失函数都是基于距离的优化。有效处理回归均值问题仍未被有效解决
+3、基本模型结构 卷积模型CNN 由于视觉图像预测任务，CNN 是相关研究的基础模型，但不同于静态图像任务，CNN 在帧序列图像中受限于帧内和帧之间的依赖问题。
+这里的短程帧依赖性问题受限于 CNN 的感受野大小。已有工作解决思路有：堆叠更多卷积层、增大卷积核、线性组合多个尺度的卷积核、膨胀卷积核、扩大感受野与池化层二次采用等方式。</description>
+    </item>
+    
+    <item>
+      <title>笔记——强化学习 Reinforcement Learning</title>
+      <link>https://deminyu98.github.io/series/notebook_rl/rl/</link>
+      <pubDate>Sat, 04 Sep 2021 15:09:30 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/notebook_rl/rl/</guid>
+      <description>先前无论 self-supervised learning 还是 autoencoder，本质上还是通过机器识别 label，本质上还是属于 supervised learning 的范式。
+而Reinforcement Learning 面向的场景通常是，人类也不知道标注的 Label 是如何，不知如何评价 label 好坏，但是机器需要知道评判好坏的标准
+一、何为 RL RL本质同监督学习一样，也是要找一个Function，输入是观察到的环境变化Observation，输出是采取的动作Action，这个过程中，环境Environment会给这个 F 一个奖励Reward，告诉当前采取的动作是好是坏。这个过程的目标是最大话获得的奖励总和。
+简化机器学习的三大步骤：
+ 有一个存在未知数的 Function 从训练数据定义一个 Loss 函数 对 Loss 函数优化 F 的未知数使 Loss 最小化  类比以上，对于RL 的简化步骤：
+ 同样具有未知数的函数，    扮演 Actor 的角色，称为 Policy Network
+  深度学习之前，他也可以是简单的规则方法。现在大部分是深度网络
+  输入是观察的状态，输出是每一个可以采取的行为分数softmax。本质和分类任务相同
+  最后按照各种动作的分数，sample 样例选择最终动作，sample 含义是随机产生动作
+   定义 Loss
+ 整场游戏从开始第一步到最终结束，机器的每一步动作都会得到一个 Reward 游戏开始到结束称为 Episode，而所有步的 Reward综合称为 Total Reward loss 视为负 total Reward，训练目标是最大化 TotalReward    优化</description>
+    </item>
+    
+    <item>
+      <title>笔记——概率论基础</title>
+      <link>https://deminyu98.github.io/series/notebook_probability/probability/</link>
+      <pubDate>Sun, 29 Aug 2021 10:03:19 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/notebook_probability/probability/</guid>
+      <description>概率论与数理统计的对比：
+概率论:
+ 概率论将随机变量及其概率分布、数字特征及特征函数，作为数学工具对随机现象进行描述分析。其前提条件是 「假设随机变量的概率分布已知」 概率论研究问题的方法是从假设、命题、已知的随机现象的事实触发，按逻辑推理得到结论，是「演绎式」  数理统计
+  数理统计中，「随机变量的概率分布未知，或分布类型已知，参数未知」
+  统计学方法是从研究对象的全体中随机抽取一部分进行实验或观测，获得实验数据，对整体做出推断，是「归纳式」
+  概率论 一、随机现象   随机试验是满足如下条件的实验：
+ 实验可在相同条件下重复进行 实验所有可能结果不止一个，但实验前可知 每次实验结果可能是某一种结果，但具体不可知    随机变量（随机事件）就是随机试验中可能出现的实验结果，具有随机性
+ 随机变量可以描述为对随机事件的数值化拓展，对于随机变量的分布函数可以引入微积分工具进行研究    随机变量的具体定义
+ 设 E是随机试验，样本空间（样本结果的所有可能取值）是 S，对 S 中的每个基本事件 e，有唯一实数值 X(e)与之对应，则 X(e)为随机变量 随机变量包括离散型随机变量和连续型随机变量    在随机实验中，通常有些实验结果出现的可能性大，这种可能性是客观存在的，被称为随机事件的概率$P(A)$
+  ☆随机变量的分布被描述为变量空间 S 中每个事件 e 发生的概率，这些所有事件的概率描述了该随机事件的分布情况。
+  当某种随机现象，我们已知其符合某种分布时，就可以直接计算其随机变量发生的概率，而无需再进行统计分析。**例如已知到店顾客数满足泊松分布，班级成绩满足正态分布……这种分布是先验的，直接获知。**当然，已知满足某种分布，该分布下可能存在分布函数参数未知的情况，这就需要统计分析估计其参数。
+  离散型随机变量可以通过分布列直接描述某个具体事件 e 的概率$P(X=e)$
+  连续型随机变量相关概念：
+ 连续型随机变量对于具体某个值的概率无意义，我们通常需要的是其在某个区间范围内的发生的概率。例如，灯泡寿命 1.5 年的概率和寿命 1.</description>
+    </item>
+    
+    <item>
+      <title>笔记——对抗性攻击 Adversarial Attack</title>
+      <link>https://deminyu98.github.io/series/notebook_advattack/advattack/</link>
+      <pubDate>Sun, 29 Aug 2021 09:58:33 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/notebook_advattack/advattack/</guid>
+      <description>Adversarial Attack  对于训练后的网络，是否具备鲁棒性来应对恶意输入，防止模型被“糊弄” 希望网络不仅具有 高准确率，还需要能够具有应对恶意输入的被欺骗能力 对于原始图像 Benign Image，对每个像素添加微小杂质生成 Attacked Image，使得模型的分类结果产生错误。 攻击分为 Targeted 攻击和 Non-Targeted 攻击，区别是是否预定模型错误的估计。  攻击方法   对于欺骗的模型，由于是在模型部署时进行欺骗，所以可以不考虑模型参数，将之固定
+  对于输入的原始图像 x0，输出 y0.对于攻击图像 x，输出为 y。对于真实的数据标签是$\hat{y}$，我们希望攻击图像得到的输出 y与$\hat{y}$的距离尽可能大，这样的损失函数可以定义为“负交叉熵”。另一方面，也希望攻击图像与原始图像尽可能相似，就需要使得$d(x^0,x)≤ \epsilon$，即图像距离小于一个阈值。可以是 最大差距或者差值均方等距离。、
+ L2-norm：差值平方和 L-Infinity: 差值最大值 将一副图像的所有像素都调整一点，跟将图像的某个像素作较大调整，可以得到相同的 L2-norm，但是 L-infinity 差别很大。 从人的主观感觉来看，对多个像素进行小的调整，更加不易分辨    而对于有目标攻击，我们希望攻击图像的标签与真实标签尽可能大，与 target标签尽可能小
+  我们固定模型参数，要生成攻击图像，就是根据损失函数获得。这里的损失函数和之前模型训练时一致，只不过这里的参数是得到输入 x
+  对于模型训练时：$w^,b^=arg\ \underset{w,b}{min} L(y,\hat{y})$
+  对于生成攻击图像时：$x^*=arg\ \underset{x}{min}\ L(x)$
+  使用梯度下降得到 x：
+ 初始输入图像是真实图像 x0 for t:  $x^t \leftarrow x^{t-1}+\eta \frac{\partial L(x)}{\partial x}$ if $d(x^0,x^t) &amp;gt; \epsilon$  $x^t\leftarrow fix(x^t)$          上面我们使用梯度下降求解攻击图像，计算梯度的过程需要知道模型的参数，因为$g=\frac{\partial L(x)}{\partial x},L(x)=-e(y,\hat{y}),\hat{y}=f_{\theta}(x)$,这里的$\theta$就是需要知道的模型的参数。这种获得进攻图像的方式我们称之为「白盒攻击」，因为需要知道模型的参数。与之对应的就是『黑盒攻击』。</description>
+    </item>
+    
+    <item>
+      <title>笔记——可解释性网络</title>
+      <link>https://deminyu98.github.io/series/notebook_explainablenet/explainablenet/</link>
+      <pubDate>Sun, 29 Aug 2021 09:16:46 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/notebook_explainablenet/explainablenet/</guid>
+      <description>为何要研究模型可解释性？
+ 一个心理学研究。在斯坦福图书馆排队使用打印机。如果后面的人希望先打印，会有 60%人同意；如果交流时加入一个理由，如赶时间等，会有 90%的人同意。
+也就是说，如果在某件事上给出一个理由，无论理由真假，能够很大的提高说服力
+ 主要还是想让研究人员对某个模型看得爽
+Local Explanation  模型对一张图像输出为“猫”，给出解释“为什么这张图像是一只猫？”“是图像中的哪些特点使得模型做出最终决断” 输入数据有多个 component，如像素点、token 等，对不同 component 作处理，模型的判断会产生改变，说明该 component 是重要决策点 。可以对输入的所有 component 作遮盖获得模型输出，整理所有的判断准确性，就可以解释模型的重点决策 component 使用梯度。对每个 component，计算对应的 loss 梯度。对 某个 component 加上小的变化，计算 loss 有较大的变化，说明该 component 是重要的。使用 loss 和变化的比值$\frac{\Delta Loss}{\Delta x}$，或者我们直接使用loss 和对应 component 的比值$\frac{\partial loss}{\partial x_n}$作为 component 的重要性。这样对图像每个像素作比值，可以得到该图像的 Saliency Map。Map 中高亮的区域就是机器认为决策重点区域 有很多展示模型解释性的方法：  可视化 探针 等等    Global Explanation  不对模型输入，给出解释“如果判断图像是一只猫”。根据训练好的模型参数分析一只猫长什么样子 主要思想是看模型关注的 pattern 模式是什么样子，进而拟人化展示  </description>
+    </item>
+    
+    <item>
+      <title>笔记——生成对抗网络 GAN</title>
+      <link>https://deminyu98.github.io/series/notebook_gan/notebook_gan/</link>
+      <pubDate>Sun, 29 Aug 2021 09:08:35 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/notebook_gan/notebook_gan/</guid>
+      <description>generator 生成式模型 生成式模型基本结构  与传统的输入 x 输出 y 的判别式模型对比，生成式模型还会有一个随机生成的 z 作为输入，这个 z 从某种分布中随机生成，network 同时根据 x 与 z 生成 y  每一次 输入 x，都会生成一次 z，这个 z 的分布必须够简单，即需要知道 z 的表达式。例如 z 属于高斯分布、平均分布等 这样同样的x，输出的 y 也不相同，y 也需要属于某种分布  为何需要生成式模型   对于视频预测问题，训练集是从视频中提取的某些帧，模型输出入下一帧的画面。
+  倘若视频是宝可梦游戏，视频中移动的物体会存在右转或左转的情况。对于这种训练数据，左转右转对于判别式模型来讲都是正确的 case，模型为了最大化正确率输出就会平衡左转右转的情况，导致训练结束的模型无法正确理解左转右转。
+  也就是说左转右转把判别式模型绕晕了，因为都是正确的 case，模型不知如何判断，两面讨好
+  而对于生成式模型，输出会根据输入的概率分布 z 辅助判断。一定几率模型判断右转，一定几率判断左转，不会导致。输出不再固定，是一个分布
+  对于特定场景：同样的输入可能有多种输出，而这些输出都是正确的，需要模型自己判断，这时就需要一种随机概率 z 发挥模型的「创造性」
+  模型画图任务需要「创造性」；问答 chatbot 也需要「创造性」
+  Generation adversarial network (GAN) GAN 示例 Unconditional generation 二次元任务面部输出 先不考虑 x，输入只有一个 normal 分布的 z，z 是一个简单的向量。模型根据不同的 z，输出不同的图片。假设图片是 64*64 彩色图片，输出就是 64*64*3 的向量 除了 generator 还需要一个 discriminator，也是一个神经网络，如 CNN、Transformer 等网络结构都可以。它输入是一张图片，输出是一个 scalar（数字）。对于某个输入图片，输出的 scalar 越大，说明图像越符合我们想要的  gan 思想  类似于动物演化、适者生存的思想。鸟吃彩蝶，彩蝶变褐色蝶；鸟开始根据纹路，也开始吃褐蝶；褐蝶变枯叶蝶，鸟开始分辨枯叶蝶与真正的枯叶 这里蝴蝶的演化是 generator，鸟的角色就是 discriminator。  首先生成器随机生成 case，判别器与真实图像对比，通过是否有眼睛判断生成的图像是否真实。生成器据此随机生成有眼睛的图像；判别器再根据是否有嘴巴头发判断图片真实程度。如此循环演化。  对抗算法   初始化参数，生成 generator 与 descriminator</description>
+    </item>
+    
+  </channel>
+</rss>
