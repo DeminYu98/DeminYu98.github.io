@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>论文阅读笔记 on Welcome 👋</title>
+    <title>论文阅读笔记 on Welcome </title>
     <link>https://deminyu98.github.io/series/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 论文阅读笔记 on Welcome 👋</description>
+    <description>Recent content in 论文阅读笔记 on Welcome </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Demin Yu 2021</copyright>
@@ -15,15 +15,6 @@
       
       <guid>https://deminyu98.github.io/series/mae/mae/</guid>
       <description>Masked Autoencoders Are Scalable Vision Learners </description>
-    </item>
-    
-    <item>
-      <title>Awesome Dialogue Survey</title>
-      <link>https://deminyu98.github.io/series/awesome_dialogue_survey/awesome_dialogue_survey/</link>
-      <pubDate>Sat, 06 Nov 2021 18:14:02 +0800</pubDate>
-      
-      <guid>https://deminyu98.github.io/series/awesome_dialogue_survey/awesome_dialogue_survey/</guid>
-      <description></description>
     </item>
     
     <item>
