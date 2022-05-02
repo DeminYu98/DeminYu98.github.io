@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Demin Yu 2021</copyright>
-    <lastBuildDate>Mon, 25 Apr 2022 10:06:52 +0800</lastBuildDate><atom:link href="https://deminyu98.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 13:50:20 +0800</lastBuildDate><atom:link href="https://deminyu98.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入理解VAE(Variational AutoEncoder)</title>
+      <link>https://deminyu98.github.io/series/vae/vae/</link>
+      <pubDate>Sat, 30 Apr 2022 13:50:20 +0800</pubDate>
+      
+      <guid>https://deminyu98.github.io/series/vae/vae/</guid>
+      <description>自编码器Auto Encoder 自编码器通用架构 自编码器概念最初被提出是基于对数据降维的目的，我们希望能够从原始特征$x$中，通过筛选、组合、变换等方式获得包含原始丰富信息的低维特征表示$e(x)$，通常$|e(x)|\ll|x|$，这种学习方式也称为表征学习Represent Learning。通俗的去思考，我们没有办法像监督学习那样对不同特征提前设定低维表征，这就需要一种自监督方法去发现原始特征之间的关系。表征学习的思路有很多种，这里我们沿着一类基于Encoder-Decoder架构的降维方法展开。这种架构利用编码器将原始特征降维获得低维编码，然后再利用解码器将低维编码重构。这相当于构造了一个自监督学习任务，学习目标是希望重构的结果与原始输入尽可能相同。这里的低维编码我们可以称为信息瓶颈，原始特征的重要信息可以经过信息瓶颈被重构。
+广泛的，降维问题可以被如下表示： $$ e^,d^ = \mathop{\arg\min}_{(e,d)\in E\times D}Loss(x,d(e(x))) $$
+PCA降维 提到降维，很多人首先想到的应该是著名的PCA（主成成分分析），其主要原理是基于奇异值分解SVD分析主要特征，对原始特征作线性组合来投影到低维表示空间中。关于PCA的具体原理不多描述，但其主要过程可以被套入自编码器的框架当中，如下图所示。PCA中的编码器、解码器即为映射矩阵$W$与其转置$W^T$
+Deep AutoEncoder 自编码器的关键在于编码器和解码器的映射关系。由此，我们考虑直接用神经网络强大的拟合能力去构造编解码器，在每次迭代中将解码器的输出与原始输入作比较，通过反向传播更新网络权重。
+这个想法是Hinton在06年《Science》中提出(原文还释放了当时的代码)。值得一提的是，在那时Hinton就指出可以利用这种自编码器的架构，构建无监督任务去做pre-training，然后在真实数据上fine-tuning。所以本质上，预训练的思想就是构建合适的无监督任务（most important）来把模型参数作有效初始化，然后在有监督任务上用很少的成本微调参数，就可以获得很好的效果。不妨回顾当时的摘要：
+ High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such “autoencoder” networks, but this works well only if the initial weights are close to a good solution.</description>
+    </item>
+    
     <item>
       <title>黄金时代</title>
       <link>https://deminyu98.github.io/blog/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</link>

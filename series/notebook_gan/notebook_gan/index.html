@@ -45,7 +45,7 @@ if (!doNotTrack) {
   
   
   
-  <link rel="stylesheet" href="/minima.1650954935.css">
+  <link rel="stylesheet" href="/minima.1651462450.css">
 
   <script src="/js/main.js"></script>
 </head>
@@ -105,7 +105,7 @@ if (!doNotTrack) {
 <h4 id="生成式模型基本结构">生成式模型基本结构</h4>
 <ul>
 <li>与传统的输入 x 输出 y 的判别式模型对比，生成式模型还会有一个随机生成的 z 作为输入，这个 z 从某种分布中随机生成，network 同时根据 x 与 z 生成 y</li>
-<li><img src="notebook_gan.assets/image-20210828085135671.png" alt=""></li>
+<li><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828085135671.png" alt=""></li>
 <li>每一次 输入 x，都会生成一次 z，这个 z 的分布必须够简单，即需要知道 z 的表达式。例如 z 属于高斯分布、平均分布等</li>
 <li>这样同样的x，输出的 y 也不相同，y 也需要属于某种分布</li>
 </ul>
@@ -132,7 +132,7 @@ if (!doNotTrack) {
 </ul>
 <h3 id="generation-adversarial-network-gan">Generation adversarial network (GAN)</h3>
 <h4 id="gan-示例">GAN 示例</h4>
-<p>Unconditional generation 二次元任务面部输出<img src="notebook_gan.assets/image-20210828091845353-0113527.png" alt=""></p>
+<p>Unconditional generation 二次元任务面部输出<img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828091845353-0113527.png" alt=""></p>
 <ul>
 <li>先不考虑 x，输入只有一个 normal 分布的 z，z 是一个简单的向量。模型根据不同的 z，输出不同的图片。假设图片是 64*64 彩色图片，输出就是 64*64*3 的向量</li>
 <li>除了 generator 还需要一个 discriminator，也是一个神经网络，如 CNN、Transformer 等网络结构都可以。它输入是一张图片，输出是一个 scalar（数字）。对于某个输入图片，输出的 scalar 越大，说明图像越符合我们想要的</li>
@@ -140,7 +140,7 @@ if (!doNotTrack) {
 <h4 id="gan-思想">gan 思想</h4>
 <ul>
 <li>类似于动物演化、适者生存的思想。鸟吃彩蝶，彩蝶变褐色蝶；鸟开始根据纹路，也开始吃褐蝶；褐蝶变枯叶蝶，鸟开始分辨枯叶蝶与真正的枯叶</li>
-<li>这里蝴蝶的演化是 generator，鸟的角色就是 discriminator。 <img src="notebook_gan.assets/image-20210828092848722.png" alt=""></li>
+<li>这里蝴蝶的演化是 generator，鸟的角色就是 discriminator。 <img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828092848722.png" alt=""></li>
 <li>首先生成器随机生成 case，判别器与真实图像对比，通过是否有眼睛判断生成的图像是否真实。生成器据此随机生成有眼睛的图像；判别器再根据是否有嘴巴头发判断图片真实程度。如此循环演化。</li>
 </ul>
 <h4 id="对抗算法">对抗算法</h4>
@@ -157,7 +157,7 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>然后训练生成器：</p>
-<p><img src="notebook_gan.assets/image-20210828095300078.png" alt=""></p>
+<p><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828095300078.png" alt=""></p>
 <ol>
 <li>固定判别器参数，更新生成器参数，目的是使得输入随机 z，生成的图像能够“欺骗”判别器</li>
 <li>欺骗判别器可以当成使得生成的图像输入判别器，判别器输出的 scale 尽可能大</li>
@@ -167,12 +167,12 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>如此循环，分别训练生成器和判别器</p>
-<p><img src="notebook_gan.assets/image-20210828095421538.png" alt=""></p>
+<p><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828095421538.png" alt=""></p>
 </li>
 </ol>
 <h3 id="gan-理论分析">GAN 理论分析</h3>
 <h4 id="gan-训练的目标">GAN 训练的目标</h4>
-<p><img src="notebook_gan.assets/image-20210828100131772.png" alt=""></p>
+<p><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828100131772.png" alt=""></p>
 <ul>
 <li>
 <p>对于从一个满足随机分布的向量 z，输入到生成器输出一个随机分布 Pg，我们希望让生成的 Pg 和真是的数据 Pdata 的分布尽可能接近。</p>
@@ -187,7 +187,7 @@ if (!doNotTrack) {
 <p>GAN 就是靠 Discriminator，根据从 Pg 和 Pdata 随机 sample 的样本，估计出了 Divergence 的计算方法</p>
 <ul>
 <li>判别器的任务就是对于输出的数据，分辨出真实图像和生成的图像</li>
-<li><img src="notebook_gan.assets/image-20210828102547414.png" alt="">
+<li><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828102547414.png" alt="">
 <ul>
 <li>这种做法就想训练一个二元分类器，我们希望训练的分类器使$V(D,G)$越大越好。</li>
 <li>这里的$V(D,G)$可以是**‘负’交叉熵**。因为对于二分类问题，我们的目标是想最小化交叉熵。所以在这里的负交叉熵，就是希望最大化。、</li>
@@ -215,7 +215,7 @@ if (!doNotTrack) {
 </ol>
 </li>
 <li>
-<p>所以对于 JS Divergence，只要两个 case 没有重叠，Js 的结果都是 log2，即无论Pg 和 Pdata 的样本距离远近，只要没有完全重叠，JS 距离就会很大<img src="notebook_gan.assets/image-20210828110111045.png" alt=""></p>
+<p>所以对于 JS Divergence，只要两个 case 没有重叠，Js 的结果都是 log2，即无论Pg 和 Pdata 的样本距离远近，只要没有完全重叠，JS 距离就会很大<img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828110111045.png" alt=""></p>
 </li>
 <li>
 <p>二分类分类器很容易分辨生成图像和真实图像，那么损失函数$max_D\ V(D,G)$都会很大，无法有效表示 JS 距离</p>
@@ -270,7 +270,7 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>文字对图片的生成就是这种任务</p>
-<p><img src="notebook_gan.assets/image-20210828145928234.png" alt=""></p>
+<p><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828145928234.png" alt=""></p>
 </li>
 <li>
 <p>这样的条件生成器也需要重新设计判别器，让判别器也读取输入的条件 x</p>
@@ -310,7 +310,7 @@ if (!doNotTrack) {
 <p>Cycle GAN</p>
 <ul>
 <li>
-<p><img src="notebook_gan.assets/image-20210828152230277.png" alt=""></p>
+<p><img src="https://imgcloud-1301022475.cos.ap-nanjing.myqcloud.com/blog/image-20210828152230277.png" alt=""></p>
 </li>
 <li>
 <p>包含三个模型。第一个生成器就不能随便产生二次元图片。需要让第二个生成器返回到真实图像。这样可以学习到真实图像和二次元图像的关系。</p>
