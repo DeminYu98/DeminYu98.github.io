@@ -16,6 +16,7 @@ Deep AutoEncoder 自编码器的关键在于编码器和解码器的映射关系
 <meta property="article:modified_time" content="2022-04-30T13:50:20+08:00" />
 
 
+
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="深入理解VAE(Variational AutoEncoder)"/>
 <meta name="twitter:description" content="自编码器Auto Encoder 自编码器通用架构 自编码器概念最初被提出是基于对数据降维的目的，我们希望能够从原始特征$x$中，通过筛选、组合、变换等方式获得包含原始丰富信息的低维特征表示$e(x)$，通常$|e(x)|\ll|x|$，这种学习方式也称为表征学习Represent Learning。通俗的去思考，我们没有办法像监督学习那样对不同特征提前设定低维表征，这就需要一种自监督方法去发现原始特征之间的关系。表征学习的思路有很多种，这里我们沿着一类基于Encoder-Decoder架构的降维方法展开。这种架构利用编码器将原始特征降维获得低维编码，然后再利用解码器将低维编码重构。这相当于构造了一个自监督学习任务，学习目标是希望重构的结果与原始输入尽可能相同。这里的低维编码我们可以称为信息瓶颈，原始特征的重要信息可以经过信息瓶颈被重构。
@@ -54,7 +55,7 @@ if (!doNotTrack) {
   
   
   
-  <link rel="stylesheet" href="/minima.1651462450.css">
+  <link rel="stylesheet" href="/minima.1651462666.css">
 
   <script src="/js/main.js"></script>
 </head>
