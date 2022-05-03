@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">WeBlog</title>
     <subtitle type="html">Hi! It&#39;s Demin</subtitle>
-    <updated>2022-05-03T20:34:50&#43;08:00</updated>
+    <updated>2022-05-03T20:42:08&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
