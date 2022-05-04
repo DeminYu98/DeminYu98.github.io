@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">WeBlog</title>
     <subtitle type="html">Hi! It&#39;s Demin</subtitle>
-    <updated>2022-05-03T20:42:08&#43;08:00</updated>
+    <updated>2022-05-05T00:47:59&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -17,19 +17,78 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
         <entry>
-            <title type="text">Test</title>
-            <link rel="alternate" type="text/html" href="https://example.com/blog/test/" />
-            <id>https://example.com/blog/test/</id>
-            <updated>2022-05-03T19:58:32&#43;08:00</updated>
-            <published>2022-05-03T19:58:32&#43;08:00</published>
+            <title type="text">【码隙碎笔】偶然地古词收集</title>
+            <link rel="alternate" type="text/html" href="https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/" />
+            <id>https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/</id>
+            <updated>2022-05-05T00:35:55&#43;08:00</updated>
+            <published>2022-05-04T22:47:34&#43;08:00</published>
             <author>
                     <name>Demin</name>
                     <uri>https://io-oi.me/</uri>
                     <email>deminyu@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">今晚在整理毕设论文的间隙，想随便翻翻技术博客，然后就陷入了「超链接黑洞」中一发不可收……</summary>
             
-                <content type="html"></content>
+                <content type="html">&lt;p&gt;今晚在整理毕设论文的间隙，想随便翻翻技术博客，然后就陷入了「超链接黑洞」中一发不可收拾。首尾来看，是从《&lt;a href=&#34;https://kexue.fm/archives/6181&#34;&gt;VAE遗忘&lt;/a&gt;》转换到了《&lt;a href=&#34;https://baike.baidu.com/item/%E5%9B%9B%E5%BC%A0%E6%9C%BA/6424635&#34;&gt;九张机 词牌&lt;/a&gt;》。具体转换过程如下：&lt;/p&gt;
+&lt;p&gt;《VAE与信息瓶颈》 --&amp;gt; 《正态分布的前世今生》 --&amp;gt; 统计之都 --&amp;gt; 怡然轩博客 --&amp;gt; 《寂寞沙洲冷》--&amp;gt; 《雁丘词》--&amp;gt; 《&lt;a href=&#34;https://baike.baidu.com/tashuo/browse/content?id=b05f0ad8fa7a912e06440312&#34;&gt;用金庸武侠诠释诗词&lt;/a&gt;》--&amp;gt; 《赌书消得泼茶香》 ——&amp;gt; 《四张机·鸳鸯织就欲双飞》--&amp;gt; 《九张机 词牌》&lt;/p&gt;
+&lt;p&gt;当然这种随心所欲的「探索」基本占领了今晚的时间。虽然明天组会还没有准备好，但这种压力之下的不务正业，却带有一种很有年代感的「漫游互联网」的乐趣。想写本文没有别的目的，只是久违的找到点所谓「古词意境」的东西，遂想单纯的记录一下。&lt;/p&gt;
+&lt;h4 id=&#34;雁冷沙洲&#34;&gt;雁冷沙洲&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;《卜算子》&lt;/p&gt;
+&lt;p&gt;缺月挂疏桐，漏断人初静。谁见幽人独往来，缥缈孤鸿影。&lt;/p&gt;
+&lt;p&gt;惊起却回头，有恨无人省。拣尽寒枝不肯栖，寂寞沙洲冷。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;印象里这首词在山东高中课本里算选读（不必赏析），初读是觉得别有一番味道，就趁着早读摸鱼多看了几遍。此时再看能理解的更多些，却也不会引起太多兴趣。而今天从&lt;a href=&#34;https://yixuan.blog/&#34;&gt;博主&lt;/a&gt;那里才了解到，这首词还在坊间流传着一首序：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;惠州有温都监女，颇有色。年十六，不肯嫁人。闻坡至，甚喜。每夜闻坡讽咏，则徘徊窗下，坡觉而推窗，则其女逾墙而去。坡从而物色之曰：“当呼王郎，与之子为姻。”未几，而坡过海，女遂卒，葬于沙滩侧。坡回惠，为赋此词。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;两者合读，顿觉又多了几分悲凉之气。&lt;/p&gt;
+&lt;h4 id=&#34;情为何物&#34;&gt;情为何物&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;摸鱼儿·雁丘词&lt;/p&gt;
+&lt;p&gt;问人间、情是何物，直教生死相许。天南地北双飞客，老翅几回寒暑。欢乐趣。离别苦。是中更有痴儿女。君应有语。渺万里层云，千山暮景，只影为谁去。&lt;/p&gt;
+&lt;p&gt;横汾路。寂寞当年箫鼓。荒烟依旧平楚。招魂楚些何嗟及，山鬼自啼风雨。天也妒。未信与、莺儿燕子俱黄土。千秋万古。为留待骚人，狂歌痛饮，来访雁丘处。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这首《雁丘词》是金庸对《神雕侠侣》的引子与概括，读小说时每当遇到这句词，往往有种更强烈的情节代入感。所谓「除却生死无大事」，却道「问世间情为何物，直教人生死相许」。写到这不禁想起现代的歌词「不懂怎么表现温柔的我们，还以为殉情只是古老的传言」，放到这不免有些违和，所以不得不承认，古典诗词是一种把文字美展现的淋漓尽致的载体，白话小说、现代歌词在这方面是望尘莫及的（大刘的《诗云》从另一个角度说明了这点）。&lt;/p&gt;
+&lt;h4 id=&#34;只道寻常&#34;&gt;只道寻常&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;浣溪沙·谁念西风独自凉&lt;/p&gt;
+&lt;p&gt;谁念西风独自凉， 萧萧黄叶闭疏窗，沉思往事立残阳。&lt;/p&gt;
+&lt;p&gt;被酒莫惊春睡重，赌书消得泼茶香，当时只道是寻常。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这首词是我读过的所有纳兰词中最喜欢的一首（高中时三分钟热血沉迷纳兰词），这种「寻常」才是一段感情中最美好的意象，或许这也是我抵触『仪式感』的原因？&lt;/p&gt;
+&lt;h4 id=&#34;机杼鸳鸯&#34;&gt;机杼鸳鸯&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;四张机&lt;/p&gt;
+&lt;p&gt;鸳鸯织就欲双飞&lt;/p&gt;
+&lt;p&gt;可怜未老头先白&lt;/p&gt;
+&lt;p&gt;春波碧草，晓寒深处&lt;/p&gt;
+&lt;p&gt;相对浴红衣&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是金庸赋予瑛姑和周伯通二人感情的意象，借用了《古乐府诗集》中的《九张机》中的其中一首。《九张机》是一套词的词牌，每首词都以“X张机”开头，且第二句往往借机杼布织之类表达妇人相思之情。除了这首《四张机》，金庸还在《射雕》中借黄蓉之口为郭靖做了《七张机》和《九张机》&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;七张机，春蚕吐尽一生丝，莫教容易裁罗绮。无端剪破，仙鸾彩凤，分作两边衣。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;九张机，双飞双叶又双枝，薄情自古多别离。从头到底，将心萦系，穿过一条丝。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;另，今晚在&lt;a href=&#34;https://baike.baidu.com/tashuo/browse/content?id=b05f0ad8fa7a912e06440312&#34;&gt;文史宴&lt;/a&gt;的文章中发现了一首作者为郭靖黄蓉做的一套《九张机》，记录了二人的主要故事。由于重在叙事，意向韵律当然不甚规整，但读来却是很有意思，这也是为何今晚突然对金庸中的词来了兴趣。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;九张机·郭靖黄蓉&lt;/p&gt;
+&lt;p&gt;一张机，天仙着了乞儿衣。众欺独护珍馐待，玩心虽起，轻灵厚朴，两各凛然奇。&lt;/p&gt;
+&lt;p&gt;二张机，只言欢喜不言痴。刀山共赴迟疑未？兰花拂穴，落英掠阵，忘己为君时。&lt;/p&gt;
+&lt;p&gt;三张机，红颜原是大厨师。烧鸡诱得神功授，教他则好，教他则好，不为己求之。&lt;/p&gt;
+&lt;p&gt;四张机，轻衫捻辫笑微微。蓉儿不是黄妖女，知她很好，知她很好，急急禀诸师。&lt;/p&gt;
+&lt;p&gt;五张机，买来阿福扮夫妻。芳郊柳畔喃喃呓，蓉儿做的，靖哥爱吃，绝似梦中期。&lt;/p&gt;
+&lt;p&gt;六张机，潮生碧海论婚时。世家远赴桃花阵，深诚误撞，相赢侥幸，岳父转相疑。&lt;/p&gt;
+&lt;p&gt;七张机，同参绝境死生机。鲸追浪打来荒岛，猾蛇卧侧，憨男慧女，履险渐如夷。&lt;/p&gt;
+&lt;p&gt;八张机，两心欲被间言移。江湖未解风波恶，相疑相信，相思相怨，失语各凄凄。&lt;/p&gt;
+&lt;p&gt;九张机，舍身崖上泪珠晞。武功第一都看淡，悄悄拉手，多磨唯愿，缘分未为迟。&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
             
             
             
@@ -53,7 +112,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/" term="Tags" label="Tags" />
+                                <category scheme="https://example.com/tags/%E7%A0%81%E9%9A%99%E7%A2%8E%E7%AC%94/" term="码隙碎笔" label="码隙碎笔" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/%E5%8F%A4%E8%AF%8D/" term="古词" label="古词" />
                             
                         
                     
@@ -62,10 +127,10 @@
         </entry>
     
         <entry>
-            <title type="text">MayDay</title>
+            <title type="text">【朝花夕拾】MayDay</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/mayday/" />
             <id>https://example.com/blog/mayday/</id>
-            <updated>2022-05-03T19:47:55&#43;08:00</updated>
+            <updated>2022-05-05T00:37:33&#43;08:00</updated>
             <published>2022-05-03T09:38:55&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -111,10 +176,10 @@
         </entry>
     
         <entry>
-            <title type="text">笔记：深入理解VAE</title>
+            <title type="text">【曲径通幽】深入理解VAE</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/vae/" />
             <id>https://example.com/series/vae/</id>
-            <updated>2022-05-03T19:52:52&#43;08:00</updated>
+            <updated>2022-05-05T00:37:53&#43;08:00</updated>
             <published>2022-04-30T13:50:20&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -296,7 +361,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/" term="深入理解" label="深入理解" />
+                                <category scheme="https://example.com/tags/%E6%9B%B2%E5%BE%84%E9%80%9A%E5%B9%BD/" term="曲径通幽" label="曲径通幽" />
                             
                         
                             
@@ -317,10 +382,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">黄金时代</title>
+            <title type="text">【朝花夕拾】黄金时代</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/" />
             <id>https://example.com/blog/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</id>
-            <updated>2022-05-03T19:47:17&#43;08:00</updated>
+            <updated>2022-05-05T00:36:48&#43;08:00</updated>
             <published>2022-04-25T10:06:52&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -366,10 +431,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">人间正道是沧桑</title>
+            <title type="text">【朝花夕拾】人间正道是沧桑</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E4%BA%BA%E9%97%B4%E6%AD%A3%E9%81%93%E6%98%AF%E6%B2%A7%E6%A1%91/" />
             <id>https://example.com/blog/%E4%BA%BA%E9%97%B4%E6%AD%A3%E9%81%93%E6%98%AF%E6%B2%A7%E6%A1%91/</id>
-            <updated>2022-05-03T19:47:48&#43;08:00</updated>
+            <updated>2022-05-05T00:37:24&#43;08:00</updated>
             <published>2022-04-18T09:48:33&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -415,10 +480,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">阶段性放松</title>
+            <title type="text">【朝花夕拾】阶段性放松</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E4%B8%89%E5%88%86%E7%83%AD%E8%A1%80%E5%85%B6%E4%BA%8C/" />
             <id>https://example.com/blog/%E4%B8%89%E5%88%86%E7%83%AD%E8%A1%80%E5%85%B6%E4%BA%8C/</id>
-            <updated>2022-05-03T19:47:52&#43;08:00</updated>
+            <updated>2022-05-05T00:37:28&#43;08:00</updated>
             <published>2022-04-06T20:24:19&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -491,10 +556,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">Paper：《MAE》</title>
+            <title type="text">【渔樵耕读】《MAE》</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/mae/" />
             <id>https://example.com/series/mae/</id>
-            <updated>2022-05-03T19:50:08&#43;08:00</updated>
+            <updated>2022-05-05T00:40:59&#43;08:00</updated>
             <published>2021-11-13T09:28:13&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -558,7 +623,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://example.com/tags/paper%E9%98%85%E8%AF%BB/" term="Paper阅读" label="Paper阅读" />
+                                <category scheme="https://example.com/tags/%E6%B8%94%E6%A8%B5%E8%80%95%E8%AF%BB/" term="渔樵耕读" label="渔樵耕读" />
                             
                         
                             
@@ -573,10 +638,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">立冬，初雪</title>
+            <title type="text">【朝花夕拾】立冬，初雪</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E5%8A%AA%E5%8A%9B~%E5%A5%8B%E6%96%97~/" />
             <id>https://example.com/blog/%E5%8A%AA%E5%8A%9B~%E5%A5%8B%E6%96%97~/</id>
-            <updated>2022-05-03T19:47:45&#43;08:00</updated>
+            <updated>2022-05-05T00:37:18&#43;08:00</updated>
             <published>2021-11-06T20:24:19&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -619,10 +684,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">杂记：Shell脚本用法总结</title>
+            <title type="text">【清风拂岗】Shell脚本用法总结</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/shell_usage/" />
             <id>https://example.com/series/shell_usage/</id>
-            <updated>2022-05-03T20:09:05&#43;08:00</updated>
+            <updated>2022-05-05T00:43:31&#43;08:00</updated>
             <published>2021-10-21T16:41:33&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -690,10 +755,10 @@ sh test.sh
         </entry>
     
         <entry>
-            <title type="text">Paper：《Swim Transformer》</title>
+            <title type="text">【渔樵耕读】《Swim Transformer》</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/swim_transf/" />
             <id>https://example.com/series/swim_transf/</id>
-            <updated>2022-05-03T19:52:29&#43;08:00</updated>
+            <updated>2022-05-05T00:44:24&#43;08:00</updated>
             <published>2021-10-14T14:05:27&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -759,7 +824,7 @@ sh test.sh
                             
                             
                             
-                                <category scheme="https://example.com/tags/paper%E9%98%85%E8%AF%BB/" term="Paper阅读" label="Paper阅读" />
+                                <category scheme="https://example.com/tags/%E6%B8%94%E6%A8%B5%E8%80%95%E8%AF%BB/" term="渔樵耕读" label="渔樵耕读" />
                             
                         
                             
@@ -774,10 +839,10 @@ sh test.sh
         </entry>
     
         <entry>
-            <title type="text">流火九月</title>
+            <title type="text">【朝花夕拾】流火九月</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E6%B5%81%E7%81%AB%E4%B9%9D%E6%9C%88/" />
             <id>https://example.com/blog/%E6%B5%81%E7%81%AB%E4%B9%9D%E6%9C%88/</id>
-            <updated>2022-05-03T19:47:31&#43;08:00</updated>
+            <updated>2022-05-05T00:37:00&#43;08:00</updated>
             <published>2021-10-06T10:45:10&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -823,10 +888,10 @@ sh test.sh
         </entry>
     
         <entry>
-            <title type="text">Paper：《A Review on Deep Learning Techniques for Video Prediction》</title>
+            <title type="text">【渔樵耕读】《A Review on Deep Learning Techniques for Video Prediction》</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/video_predict/" />
             <id>https://example.com/series/video_predict/</id>
-            <updated>2022-05-03T19:53:18&#43;08:00</updated>
+            <updated>2022-05-05T00:44:12&#43;08:00</updated>
             <published>2021-10-03T19:17:41&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -912,7 +977,7 @@ sh test.sh
                             
                             
                             
-                                <category scheme="https://example.com/tags/paper%E9%98%85%E8%AF%BB/" term="Paper阅读" label="Paper阅读" />
+                                <category scheme="https://example.com/tags/%E6%B8%94%E6%A8%B5%E8%80%95%E8%AF%BB/" term="渔樵耕读" label="渔樵耕读" />
                             
                         
                             
@@ -933,10 +998,10 @@ sh test.sh
         </entry>
     
         <entry>
-            <title type="text">笔记：强化学习 Reinforcement Learning</title>
+            <title type="text">【清风拂岗】强化学习 Reinforcement Learning</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/rl/" />
             <id>https://example.com/series/rl/</id>
-            <updated>2022-05-03T19:50:55&#43;08:00</updated>
+            <updated>2022-05-05T00:44:32&#43;08:00</updated>
             <published>2021-09-04T15:09:30&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -1176,7 +1241,7 @@ $&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/" term="DL笔记" label="DL笔记" />
+                                <category scheme="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/" term="清风拂岗" label="清风拂岗" />
                             
                         
                             
@@ -1191,10 +1256,10 @@ $&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">开学</title>
+            <title type="text">【朝花夕拾】开学</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E5%BC%80%E5%AD%A6/" />
             <id>https://example.com/blog/%E5%BC%80%E5%AD%A6/</id>
-            <updated>2022-05-03T19:47:27&#43;08:00</updated>
+            <updated>2022-05-05T00:36:56&#43;08:00</updated>
             <published>2021-09-01T22:18:06&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -1240,10 +1305,10 @@ $&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">笔记：概率论基础</title>
+            <title type="text">【清风拂岗】概率论基础</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/probability/" />
             <id>https://example.com/series/probability/</id>
-            <updated>2022-05-03T19:50:42&#43;08:00</updated>
+            <updated>2022-05-05T00:44:38&#43;08:00</updated>
             <published>2021-08-29T10:03:19&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -1559,7 +1624,7 @@ $$
                             
                             
                             
-                                <category scheme="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/" term="DL笔记" label="DL笔记" />
+                                <category scheme="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/" term="清风拂岗" label="清风拂岗" />
                             
                         
                             
@@ -1574,10 +1639,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">笔记：对抗性攻击 Adversarial Attack</title>
+            <title type="text">【清风拂岗】对抗性攻击 Adversarial Attack</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/advattack/" />
             <id>https://example.com/series/advattack/</id>
-            <updated>2022-05-03T19:48:55&#43;08:00</updated>
+            <updated>2022-05-05T00:43:49&#43;08:00</updated>
             <published>2021-08-29T09:58:33&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -1701,7 +1766,13 @@ $$
                             
                             
                             
-                                <category scheme="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/" term="DL笔记" label="DL笔记" />
+                                <category scheme="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/" term="清风拂岗" label="清风拂岗" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/%E6%A8%A1%E5%9E%8B%E6%B8%97%E9%80%8F/" term="模型渗透" label="模型渗透" />
                             
                         
                     
@@ -1710,10 +1781,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">笔记：可解释性网络</title>
+            <title type="text">【清风拂岗】可解释性网络</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/explainablenet/" />
             <id>https://example.com/series/explainablenet/</id>
-            <updated>2022-05-03T19:49:22&#43;08:00</updated>
+            <updated>2022-05-05T00:43:59&#43;08:00</updated>
             <published>2021-08-29T09:16:46&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -1770,7 +1841,7 @@ $$
                             
                             
                             
-                                <category scheme="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/" term="DL笔记" label="DL笔记" />
+                                <category scheme="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/" term="清风拂岗" label="清风拂岗" />
                             
                         
                             
@@ -1785,10 +1856,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">笔记：生成对抗网络 GAN</title>
+            <title type="text">【清风拂岗】生成对抗网络 GAN</title>
             <link rel="alternate" type="text/html" href="https://example.com/series/notebook_gan/" />
             <id>https://example.com/series/notebook_gan/</id>
-            <updated>2022-05-03T19:50:24&#43;08:00</updated>
+            <updated>2022-05-05T00:44:45&#43;08:00</updated>
             <published>2021-08-29T09:08:35&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -2038,7 +2109,7 @@ $$
                             
                             
                             
-                                <category scheme="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/" term="DL笔记" label="DL笔记" />
+                                <category scheme="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/" term="清风拂岗" label="清风拂岗" />
                             
                         
                             
@@ -2053,10 +2124,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">对一个前程序员的up主生活的思考</title>
+            <title type="text">【朝花夕拾】对一个前程序员的up主生活的思考</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A63/" />
             <id>https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A63/</id>
-            <updated>2022-05-03T19:47:42&#43;08:00</updated>
+            <updated>2022-05-05T00:37:11&#43;08:00</updated>
             <published>2020-11-21T19:13:59&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -2105,10 +2176,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">九一八</title>
+            <title type="text">【朝花夕拾】九一八</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A62/" />
             <id>https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A62/</id>
-            <updated>2022-05-03T19:47:39&#43;08:00</updated>
+            <updated>2022-05-05T00:37:07&#43;08:00</updated>
             <published>2020-09-18T19:11:54&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -2161,10 +2232,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">所谓研究生</title>
+            <title type="text">【朝花夕拾】所谓研究生</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A61/" />
             <id>https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A61/</id>
-            <updated>2022-05-03T19:47:35&#43;08:00</updated>
+            <updated>2022-05-05T00:37:03&#43;08:00</updated>
             <published>2020-09-11T19:11:54&#43;08:00</published>
             <author>
                     <name>Demin</name>

@@ -23,22 +23,81 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 03 May 2022 20:42:08 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 05 May 2022 00:47:59 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
-                <title>Test</title>
-                <link>https://example.com/blog/test/</link>
-                <guid isPermaLink="true">https://example.com/blog/test/</guid>
-                <pubDate>Tue, 03 May 2022 19:58:32 &#43;0800</pubDate>
+                <title>【码隙碎笔】偶然地古词收集</title>
+                <link>https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/</link>
+                <guid isPermaLink="true">https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/</guid>
+                <pubDate>Wed, 04 May 2022 22:47:34 &#43;0800</pubDate>
                 
                     <author>deminyu@qq.com (Demin)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description></description>
+                    <description>&lt;p&gt;今晚在整理毕设论文的间隙，想随便翻翻技术博客，然后就陷入了「超链接黑洞」中一发不可收拾。首尾来看，是从《&lt;a href=&#34;https://kexue.fm/archives/6181&#34;&gt;VAE遗忘&lt;/a&gt;》转换到了《&lt;a href=&#34;https://baike.baidu.com/item/%E5%9B%9B%E5%BC%A0%E6%9C%BA/6424635&#34;&gt;九张机 词牌&lt;/a&gt;》。具体转换过程如下：&lt;/p&gt;
+&lt;p&gt;《VAE与信息瓶颈》 --&amp;gt; 《正态分布的前世今生》 --&amp;gt; 统计之都 --&amp;gt; 怡然轩博客 --&amp;gt; 《寂寞沙洲冷》--&amp;gt; 《雁丘词》--&amp;gt; 《&lt;a href=&#34;https://baike.baidu.com/tashuo/browse/content?id=b05f0ad8fa7a912e06440312&#34;&gt;用金庸武侠诠释诗词&lt;/a&gt;》--&amp;gt; 《赌书消得泼茶香》 ——&amp;gt; 《四张机·鸳鸯织就欲双飞》--&amp;gt; 《九张机 词牌》&lt;/p&gt;
+&lt;p&gt;当然这种随心所欲的「探索」基本占领了今晚的时间。虽然明天组会还没有准备好，但这种压力之下的不务正业，却带有一种很有年代感的「漫游互联网」的乐趣。想写本文没有别的目的，只是久违的找到点所谓「古词意境」的东西，遂想单纯的记录一下。&lt;/p&gt;
+&lt;h4 id=&#34;雁冷沙洲&#34;&gt;雁冷沙洲&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;《卜算子》&lt;/p&gt;
+&lt;p&gt;缺月挂疏桐，漏断人初静。谁见幽人独往来，缥缈孤鸿影。&lt;/p&gt;
+&lt;p&gt;惊起却回头，有恨无人省。拣尽寒枝不肯栖，寂寞沙洲冷。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;印象里这首词在山东高中课本里算选读（不必赏析），初读是觉得别有一番味道，就趁着早读摸鱼多看了几遍。此时再看能理解的更多些，却也不会引起太多兴趣。而今天从&lt;a href=&#34;https://yixuan.blog/&#34;&gt;博主&lt;/a&gt;那里才了解到，这首词还在坊间流传着一首序：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;惠州有温都监女，颇有色。年十六，不肯嫁人。闻坡至，甚喜。每夜闻坡讽咏，则徘徊窗下，坡觉而推窗，则其女逾墙而去。坡从而物色之曰：“当呼王郎，与之子为姻。”未几，而坡过海，女遂卒，葬于沙滩侧。坡回惠，为赋此词。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;两者合读，顿觉又多了几分悲凉之气。&lt;/p&gt;
+&lt;h4 id=&#34;情为何物&#34;&gt;情为何物&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;摸鱼儿·雁丘词&lt;/p&gt;
+&lt;p&gt;问人间、情是何物，直教生死相许。天南地北双飞客，老翅几回寒暑。欢乐趣。离别苦。是中更有痴儿女。君应有语。渺万里层云，千山暮景，只影为谁去。&lt;/p&gt;
+&lt;p&gt;横汾路。寂寞当年箫鼓。荒烟依旧平楚。招魂楚些何嗟及，山鬼自啼风雨。天也妒。未信与、莺儿燕子俱黄土。千秋万古。为留待骚人，狂歌痛饮，来访雁丘处。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这首《雁丘词》是金庸对《神雕侠侣》的引子与概括，读小说时每当遇到这句词，往往有种更强烈的情节代入感。所谓「除却生死无大事」，却道「问世间情为何物，直教人生死相许」。写到这不禁想起现代的歌词「不懂怎么表现温柔的我们，还以为殉情只是古老的传言」，放到这不免有些违和，所以不得不承认，古典诗词是一种把文字美展现的淋漓尽致的载体，白话小说、现代歌词在这方面是望尘莫及的（大刘的《诗云》从另一个角度说明了这点）。&lt;/p&gt;
+&lt;h4 id=&#34;只道寻常&#34;&gt;只道寻常&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;浣溪沙·谁念西风独自凉&lt;/p&gt;
+&lt;p&gt;谁念西风独自凉， 萧萧黄叶闭疏窗，沉思往事立残阳。&lt;/p&gt;
+&lt;p&gt;被酒莫惊春睡重，赌书消得泼茶香，当时只道是寻常。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这首词是我读过的所有纳兰词中最喜欢的一首（高中时三分钟热血沉迷纳兰词），这种「寻常」才是一段感情中最美好的意象，或许这也是我抵触『仪式感』的原因？&lt;/p&gt;
+&lt;h4 id=&#34;机杼鸳鸯&#34;&gt;机杼鸳鸯&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;四张机&lt;/p&gt;
+&lt;p&gt;鸳鸯织就欲双飞&lt;/p&gt;
+&lt;p&gt;可怜未老头先白&lt;/p&gt;
+&lt;p&gt;春波碧草，晓寒深处&lt;/p&gt;
+&lt;p&gt;相对浴红衣&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是金庸赋予瑛姑和周伯通二人感情的意象，借用了《古乐府诗集》中的《九张机》中的其中一首。《九张机》是一套词的词牌，每首词都以“X张机”开头，且第二句往往借机杼布织之类表达妇人相思之情。除了这首《四张机》，金庸还在《射雕》中借黄蓉之口为郭靖做了《七张机》和《九张机》&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;七张机，春蚕吐尽一生丝，莫教容易裁罗绮。无端剪破，仙鸾彩凤，分作两边衣。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;九张机，双飞双叶又双枝，薄情自古多别离。从头到底，将心萦系，穿过一条丝。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;另，今晚在&lt;a href=&#34;https://baike.baidu.com/tashuo/browse/content?id=b05f0ad8fa7a912e06440312&#34;&gt;文史宴&lt;/a&gt;的文章中发现了一首作者为郭靖黄蓉做的一套《九张机》，记录了二人的主要故事。由于重在叙事，意向韵律当然不甚规整，但读来却是很有意思，这也是为何今晚突然对金庸中的词来了兴趣。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;九张机·郭靖黄蓉&lt;/p&gt;
+&lt;p&gt;一张机，天仙着了乞儿衣。众欺独护珍馐待，玩心虽起，轻灵厚朴，两各凛然奇。&lt;/p&gt;
+&lt;p&gt;二张机，只言欢喜不言痴。刀山共赴迟疑未？兰花拂穴，落英掠阵，忘己为君时。&lt;/p&gt;
+&lt;p&gt;三张机，红颜原是大厨师。烧鸡诱得神功授，教他则好，教他则好，不为己求之。&lt;/p&gt;
+&lt;p&gt;四张机，轻衫捻辫笑微微。蓉儿不是黄妖女，知她很好，知她很好，急急禀诸师。&lt;/p&gt;
+&lt;p&gt;五张机，买来阿福扮夫妻。芳郊柳畔喃喃呓，蓉儿做的，靖哥爱吃，绝似梦中期。&lt;/p&gt;
+&lt;p&gt;六张机，潮生碧海论婚时。世家远赴桃花阵，深诚误撞，相赢侥幸，岳父转相疑。&lt;/p&gt;
+&lt;p&gt;七张机，同参绝境死生机。鲸追浪打来荒岛，猾蛇卧侧，憨男慧女，履险渐如夷。&lt;/p&gt;
+&lt;p&gt;八张机，两心欲被间言移。江湖未解风波恶，相疑相信，相思相怨，失语各凄凄。&lt;/p&gt;
+&lt;p&gt;九张机，舍身崖上泪珠晞。武功第一都看淡，悄悄拉手，多磨唯愿，缘分未为迟。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
                 
                 
                 
@@ -62,7 +121,13 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/">Tags</category>
+                                    <category domain="https://example.com/tags/%E7%A0%81%E9%9A%99%E7%A2%8E%E7%AC%94/">码隙碎笔</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E5%8F%A4%E8%AF%8D/">古词</category>
                                 
                             
                         
@@ -71,7 +136,7 @@
             </item>
         
             <item>
-                <title>MayDay</title>
+                <title>【朝花夕拾】MayDay</title>
                 <link>https://example.com/blog/mayday/</link>
                 <guid isPermaLink="true">https://example.com/blog/mayday/</guid>
                 <pubDate>Tue, 03 May 2022 09:38:55 &#43;0800</pubDate>
@@ -117,7 +182,7 @@
             </item>
         
             <item>
-                <title>笔记：深入理解VAE</title>
+                <title>【曲径通幽】深入理解VAE</title>
                 <link>https://example.com/series/vae/</link>
                 <guid isPermaLink="true">https://example.com/series/vae/</guid>
                 <pubDate>Sat, 30 Apr 2022 13:50:20 &#43;0800</pubDate>
@@ -299,7 +364,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3/">深入理解</category>
+                                    <category domain="https://example.com/tags/%E6%9B%B2%E5%BE%84%E9%80%9A%E5%B9%BD/">曲径通幽</category>
                                 
                             
                                 
@@ -320,7 +385,7 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>黄金时代</title>
+                <title>【朝花夕拾】黄金时代</title>
                 <link>https://example.com/blog/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3/</guid>
                 <pubDate>Mon, 25 Apr 2022 10:06:52 &#43;0800</pubDate>
@@ -366,7 +431,7 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>人间正道是沧桑</title>
+                <title>【朝花夕拾】人间正道是沧桑</title>
                 <link>https://example.com/blog/%E4%BA%BA%E9%97%B4%E6%AD%A3%E9%81%93%E6%98%AF%E6%B2%A7%E6%A1%91/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E4%BA%BA%E9%97%B4%E6%AD%A3%E9%81%93%E6%98%AF%E6%B2%A7%E6%A1%91/</guid>
                 <pubDate>Mon, 18 Apr 2022 09:48:33 &#43;0800</pubDate>
@@ -412,7 +477,7 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>阶段性放松</title>
+                <title>【朝花夕拾】阶段性放松</title>
                 <link>https://example.com/blog/%E4%B8%89%E5%88%86%E7%83%AD%E8%A1%80%E5%85%B6%E4%BA%8C/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E4%B8%89%E5%88%86%E7%83%AD%E8%A1%80%E5%85%B6%E4%BA%8C/</guid>
                 <pubDate>Wed, 06 Apr 2022 20:24:19 &#43;0800</pubDate>
@@ -485,7 +550,7 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>Paper：《MAE》</title>
+                <title>【渔樵耕读】《MAE》</title>
                 <link>https://example.com/series/mae/</link>
                 <guid isPermaLink="true">https://example.com/series/mae/</guid>
                 <pubDate>Sat, 13 Nov 2021 09:28:13 &#43;0800</pubDate>
@@ -549,7 +614,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/paper%E9%98%85%E8%AF%BB/">Paper阅读</category>
+                                    <category domain="https://example.com/tags/%E6%B8%94%E6%A8%B5%E8%80%95%E8%AF%BB/">渔樵耕读</category>
                                 
                             
                                 
@@ -564,7 +629,7 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>立冬，初雪</title>
+                <title>【朝花夕拾】立冬，初雪</title>
                 <link>https://example.com/blog/%E5%8A%AA%E5%8A%9B~%E5%A5%8B%E6%96%97~/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E5%8A%AA%E5%8A%9B~%E5%A5%8B%E6%96%97~/</guid>
                 <pubDate>Sat, 06 Nov 2021 20:24:19 &#43;0800</pubDate>
@@ -607,7 +672,7 @@ $$&lt;/p&gt;
             </item>
         
             <item>
-                <title>杂记：Shell脚本用法总结</title>
+                <title>【清风拂岗】Shell脚本用法总结</title>
                 <link>https://example.com/series/shell_usage/</link>
                 <guid isPermaLink="true">https://example.com/series/shell_usage/</guid>
                 <pubDate>Thu, 21 Oct 2021 16:41:33 &#43;0800</pubDate>
@@ -675,7 +740,7 @@ sh test.sh
             </item>
         
             <item>
-                <title>Paper：《Swim Transformer》</title>
+                <title>【渔樵耕读】《Swim Transformer》</title>
                 <link>https://example.com/series/swim_transf/</link>
                 <guid isPermaLink="true">https://example.com/series/swim_transf/</guid>
                 <pubDate>Thu, 14 Oct 2021 14:05:27 &#43;0800</pubDate>
@@ -741,7 +806,7 @@ sh test.sh
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/paper%E9%98%85%E8%AF%BB/">Paper阅读</category>
+                                    <category domain="https://example.com/tags/%E6%B8%94%E6%A8%B5%E8%80%95%E8%AF%BB/">渔樵耕读</category>
                                 
                             
                                 
@@ -756,7 +821,7 @@ sh test.sh
             </item>
         
             <item>
-                <title>流火九月</title>
+                <title>【朝花夕拾】流火九月</title>
                 <link>https://example.com/blog/%E6%B5%81%E7%81%AB%E4%B9%9D%E6%9C%88/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E6%B5%81%E7%81%AB%E4%B9%9D%E6%9C%88/</guid>
                 <pubDate>Wed, 06 Oct 2021 10:45:10 &#43;0800</pubDate>
@@ -802,7 +867,7 @@ sh test.sh
             </item>
         
             <item>
-                <title>Paper：《A Review on Deep Learning Techniques for Video Prediction》</title>
+                <title>【渔樵耕读】《A Review on Deep Learning Techniques for Video Prediction》</title>
                 <link>https://example.com/series/video_predict/</link>
                 <guid isPermaLink="true">https://example.com/series/video_predict/</guid>
                 <pubDate>Sun, 03 Oct 2021 19:17:41 &#43;0800</pubDate>
@@ -888,7 +953,7 @@ sh test.sh
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/paper%E9%98%85%E8%AF%BB/">Paper阅读</category>
+                                    <category domain="https://example.com/tags/%E6%B8%94%E6%A8%B5%E8%80%95%E8%AF%BB/">渔樵耕读</category>
                                 
                             
                                 
@@ -909,7 +974,7 @@ sh test.sh
             </item>
         
             <item>
-                <title>笔记：强化学习 Reinforcement Learning</title>
+                <title>【清风拂岗】强化学习 Reinforcement Learning</title>
                 <link>https://example.com/series/rl/</link>
                 <guid isPermaLink="true">https://example.com/series/rl/</guid>
                 <pubDate>Sat, 04 Sep 2021 15:09:30 &#43;0800</pubDate>
@@ -1149,7 +1214,7 @@ $&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/">DL笔记</category>
+                                    <category domain="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/">清风拂岗</category>
                                 
                             
                                 
@@ -1164,7 +1229,7 @@ $&lt;/p&gt;
             </item>
         
             <item>
-                <title>开学</title>
+                <title>【朝花夕拾】开学</title>
                 <link>https://example.com/blog/%E5%BC%80%E5%AD%A6/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E5%BC%80%E5%AD%A6/</guid>
                 <pubDate>Wed, 01 Sep 2021 22:18:06 &#43;0800</pubDate>
@@ -1210,7 +1275,7 @@ $&lt;/p&gt;
             </item>
         
             <item>
-                <title>笔记：概率论基础</title>
+                <title>【清风拂岗】概率论基础</title>
                 <link>https://example.com/series/probability/</link>
                 <guid isPermaLink="true">https://example.com/series/probability/</guid>
                 <pubDate>Sun, 29 Aug 2021 10:03:19 &#43;0800</pubDate>
@@ -1526,7 +1591,7 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/">DL笔记</category>
+                                    <category domain="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/">清风拂岗</category>
                                 
                             
                                 
@@ -1541,7 +1606,7 @@ $$
             </item>
         
             <item>
-                <title>笔记：对抗性攻击 Adversarial Attack</title>
+                <title>【清风拂岗】对抗性攻击 Adversarial Attack</title>
                 <link>https://example.com/series/advattack/</link>
                 <guid isPermaLink="true">https://example.com/series/advattack/</guid>
                 <pubDate>Sun, 29 Aug 2021 09:58:33 &#43;0800</pubDate>
@@ -1665,7 +1730,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/">DL笔记</category>
+                                    <category domain="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/">清风拂岗</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E6%A8%A1%E5%9E%8B%E6%B8%97%E9%80%8F/">模型渗透</category>
                                 
                             
                         
@@ -1674,7 +1745,7 @@ $$
             </item>
         
             <item>
-                <title>笔记：可解释性网络</title>
+                <title>【清风拂岗】可解释性网络</title>
                 <link>https://example.com/series/explainablenet/</link>
                 <guid isPermaLink="true">https://example.com/series/explainablenet/</guid>
                 <pubDate>Sun, 29 Aug 2021 09:16:46 &#43;0800</pubDate>
@@ -1731,7 +1802,7 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/">DL笔记</category>
+                                    <category domain="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/">清风拂岗</category>
                                 
                             
                                 
@@ -1746,7 +1817,7 @@ $$
             </item>
         
             <item>
-                <title>笔记：生成对抗网络 GAN</title>
+                <title>【清风拂岗】生成对抗网络 GAN</title>
                 <link>https://example.com/series/notebook_gan/</link>
                 <guid isPermaLink="true">https://example.com/series/notebook_gan/</guid>
                 <pubDate>Sun, 29 Aug 2021 09:08:35 &#43;0800</pubDate>
@@ -1996,7 +2067,7 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/dl%E7%AC%94%E8%AE%B0/">DL笔记</category>
+                                    <category domain="https://example.com/tags/%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B2%97/">清风拂岗</category>
                                 
                             
                                 
@@ -2011,7 +2082,7 @@ $$
             </item>
         
             <item>
-                <title>对一个前程序员的up主生活的思考</title>
+                <title>【朝花夕拾】对一个前程序员的up主生活的思考</title>
                 <link>https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A63/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A63/</guid>
                 <pubDate>Sat, 21 Nov 2020 19:13:59 &#43;0800</pubDate>
@@ -2060,7 +2131,7 @@ $$
             </item>
         
             <item>
-                <title>九一八</title>
+                <title>【朝花夕拾】九一八</title>
                 <link>https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A62/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A62/</guid>
                 <pubDate>Fri, 18 Sep 2020 19:11:54 &#43;0800</pubDate>
@@ -2113,7 +2184,7 @@ $$
             </item>
         
             <item>
-                <title>所谓研究生</title>
+                <title>【朝花夕拾】所谓研究生</title>
                 <link>https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A61/</link>
                 <guid isPermaLink="true">https://example.com/blog/%E6%B5%81%E6%B0%B4%E8%B4%A61/</guid>
                 <pubDate>Fri, 11 Sep 2020 19:11:54 &#43;0800</pubDate>
