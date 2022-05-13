@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">WeBlog</title>
     <subtitle type="html">Hi! It&#39;s Demin</subtitle>
-    <updated>2022-05-05T01:02:25&#43;08:00</updated>
+    <updated>2022-05-13T19:27:47&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -17,10 +17,63 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
         <entry>
+            <title type="text">【码隙碎笔】两个七年</title>
+            <link rel="alternate" type="text/html" href="https://example.com/blog/%E5%86%99%E4%BA%8E%E6%9B%BC%E8%81%94%E5%90%A7%E5%B8%96%E5%AD%90%E8%AF%BB%E5%90%8E/" />
+            <id>https://example.com/blog/%E5%86%99%E4%BA%8E%E6%9B%BC%E8%81%94%E5%90%A7%E5%B8%96%E5%AD%90%E8%AF%BB%E5%90%8E/</id>
+            <updated>2022-05-13T19:27:24&#43;08:00</updated>
+            <published>2022-05-13T18:48:25&#43;08:00</published>
+            <author>
+                    <name>Demin</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>deminyu@qq.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">近几年每到5.12，都会刷到所谓“曼联吧神贴”。凡刷到，也总是会拿出时间再去读一遍，……</summary>
+            
+                <content type="html">&lt;p&gt;近几年每到5.12，都会刷到所谓“曼联吧神贴”。凡刷到，也总是会拿出时间再去读一遍，哪怕每次都会忍不住泪目。&lt;/p&gt;
+&lt;p&gt;帖子叫《七年了，我还是很想你》&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tieba.baidu.com/p/3746839672?see_lz=1&amp;amp;pn=4#68514218625l&#34;&gt;原贴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bbs.hupu.com/53604066.html?is_reflow=1&amp;amp;cid=&amp;amp;bddid=&amp;amp;puid=&amp;amp;client=c2b8832027546f63&#34;&gt;整理版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;08年对大部分国人来讲都是印象深刻的一年，雪灾、地震、奥运、经济危机，有悲怆有喜悦。从国家的视角，整个社会挺过了天灾与人祸，在磨难之后开始大踏步的前进，不仅仅是硬实力，更是民族层面上的精气神得以提升。从个人的视角，当时五年级的自己说实话还没有足够的自主的思想，却从那年起逐渐有了与民族的共情。没有什么高大上的精神支撑，只是在灾难面前，国人自强、坚韧的品性，感动了所有人。印象最深的是看08年的《感动中国》，组委会提名了特别奖——全体“中国人”。只记得那晚看《感动中国》自己哭的稀里哗啦。&lt;/p&gt;
+&lt;p&gt;如今，两个“七年”过去了，希望原作者安好。这样一份厚厚的感情就让她埋藏在心底，至少不枉来过。14年，国家社会和个人都又向前走了很多的路，铭记过去，展望将来，不断前进。就像今年的冬奥会，与08奥运相比，我们不再急着去炫耀自己，而是用我们的底蕴去吸引别人，这才可谓民族自信！&lt;/p&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://example.com/blog/" term="blog" label="blog" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/" term="Tags" label="Tags" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">【码隙碎笔】偶然地古词收集</title>
             <link rel="alternate" type="text/html" href="https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/" />
             <id>https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/</id>
-            <updated>2022-05-05T00:58:54&#43;08:00</updated>
+            <updated>2022-05-05T09:27:13&#43;08:00</updated>
             <published>2022-05-04T22:47:34&#43;08:00</published>
             <author>
                     <name>Demin</name>
@@ -29,12 +82,12 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">今晚在整理毕设论文的间隙，想随便翻翻技术博客，然后就陷入了「超链接黑洞」中一发不可收……</summary>
             
-                <content type="html">&lt;p&gt;今晚在整理毕设论文的间隙，想随便翻翻技术博客，然后就陷入了「超链接黑洞」中一发不可收拾。首尾来看，是从《&lt;a href=&#34;https://kexue.fm/archives/6181&#34;&gt;VAE遗忘&lt;/a&gt;》转换到了《&lt;a href=&#34;https://baike.baidu.com/item/%E5%9B%9B%E5%BC%A0%E6%9C%BA/6424635&#34;&gt;九张机 词牌&lt;/a&gt;》。具体转换过程如下：&lt;/p&gt;
-&lt;p&gt;《VAE与信息瓶颈》 -&amp;gt; 《正态分布的前世今生》 -&amp;gt; 统计之都 -&amp;gt; 怡然轩博客 -&amp;gt; 《寂寞沙洲冷》-&amp;gt; 《雁丘词》-&amp;gt; 《&lt;a href=&#34;https://baike.baidu.com/tashuo/browse/content?id=b05f0ad8fa7a912e06440312&#34;&gt;用金庸武侠诠释诗词&lt;/a&gt;》-&amp;gt; 《赌书消得泼茶香》 -&amp;gt; 《四张机·鸳鸯织就欲双飞》-&amp;gt; 《九张机 词牌》&lt;/p&gt;
-&lt;p&gt;当然这种随心所欲的「探索」基本占领了今晚的时间。虽然明天组会还没有准备好，但这种压力之下的不务正业，却带有一种很有年代感的「漫游互联网」的乐趣。想写本文没有别的目的，只是久违的找到点所谓「古词意境」的东西，遂想单纯的记录一下。&lt;/p&gt;
+                <content type="html">&lt;p&gt;今晚在整理毕设论文的间隙，想随便翻翻技术博客，然后就陷入了「超链接黑洞」中一发不可收拾。首尾来看，是从《&lt;a href=&#34;https://kexue.fm/archives/6181&#34;&gt;VAE与遗忘&lt;/a&gt;》转换到了《&lt;a href=&#34;https://baike.baidu.com/item/%E5%9B%9B%E5%BC%A0%E6%9C%BA/6424635&#34;&gt;九张机 词牌&lt;/a&gt;》。具体转换过程如下：&lt;/p&gt;
+&lt;p&gt;《VAE与遗忘》 -&amp;gt; 《正态分布的前世今生》 -&amp;gt; 统计之都 -&amp;gt; 怡然轩博客 -&amp;gt; 《寂寞沙洲冷》-&amp;gt; 《雁丘词》-&amp;gt; 《&lt;a href=&#34;https://baike.baidu.com/tashuo/browse/content?id=b05f0ad8fa7a912e06440312&#34;&gt;用金庸武侠诠释诗词&lt;/a&gt;》-&amp;gt; 《赌书消得泼茶香》 -&amp;gt; 《四张机·鸳鸯织就欲双飞》-&amp;gt; 《九张机 词牌》&lt;/p&gt;
+&lt;p&gt;当然这种随心所欲的「探索」基本占领了今晚的时间。虽然明天组会还没有准备好，但这种压力之下的不务正业，却带有一种很有年代感的「网上冲浪」的乐趣。想写本文没有别的目的，只是久违的找到点所谓「古词意境」的东西，遂想单纯的记录一下。&lt;/p&gt;
 &lt;h4 id=&#34;雁冷沙洲&#34;&gt;雁冷沙洲&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;p&gt;《卜算子》&lt;/p&gt;
+&lt;p&gt;卜算子&lt;/p&gt;
 &lt;p&gt;缺月挂疏桐，漏断人初静。谁见幽人独往来，缥缈孤鸿影。&lt;/p&gt;
 &lt;p&gt;惊起却回头，有恨无人省。拣尽寒枝不肯栖，寂寞沙洲冷。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -52,7 +105,7 @@
 &lt;p&gt;这首《雁丘词》是金庸对《神雕侠侣》的引子与概括，读小说时每当遇到这句词，往往有种更强烈的情节代入感。所谓「除却生死无大事」，却道「问世间情为何物，直教人生死相许」。写到这不禁想起现代的歌词「不懂怎么表现温柔的我们，还以为殉情只是古老的传言」，放到这不免有些违和，所以不得不承认，古典诗词是一种把文字美展现的淋漓尽致的载体，白话小说、现代歌词在这方面是望尘莫及的（大刘的《诗云》从另一个角度说明了这点）。&lt;/p&gt;
 &lt;h4 id=&#34;只道寻常&#34;&gt;只道寻常&lt;/h4&gt;
 &lt;blockquote&gt;
-&lt;p&gt;浣溪沙·谁念西风独自凉&lt;/p&gt;
+&lt;p&gt;浣溪沙&lt;/p&gt;
 &lt;p&gt;谁念西风独自凉， 萧萧黄叶闭疏窗，沉思往事立残阳。&lt;/p&gt;
 &lt;p&gt;被酒莫惊春睡重，赌书消得泼茶香，当时只道是寻常。&lt;/p&gt;
 &lt;/blockquote&gt;
