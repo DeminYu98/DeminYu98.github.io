@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 13 May 2022 19:27:47 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 13 May 2022 19:35:07 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -70,7 +70,19 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/">Tags</category>
+                                    <category domain="https://example.com/tags/%E7%A0%81%E9%9A%99%E7%A2%8E%E7%AC%94/">码隙碎笔</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/">读后感</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E6%9B%BC%E5%90%A7%E7%A5%9E%E8%B4%B4/">曼吧神贴</category>
                                 
                             
                         

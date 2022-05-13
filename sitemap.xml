@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/blog/</loc>
-    <lastmod>2022-05-13T19:27:24+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/blog/%E5%86%99%E4%BA%8E%E6%9B%BC%E8%81%94%E5%90%A7%E5%B8%96%E5%AD%90%E8%AF%BB%E5%90%8E/</loc>
-    <lastmod>2022-05-13T19:27:24+08:00</lastmod>
+    <lastmod>2022-05-13T19:35:02+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2022-05-05T09:27:13+08:00</lastmod>
+    <lastmod>2022-05-13T19:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/blog/%E5%86%99%E4%BA%8E%E6%9B%BC%E8%81%94%E5%90%A7%E5%B8%96%E5%AD%90%E8%AF%BB%E5%90%8E/</loc>
+    <lastmod>2022-05-13T19:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E6%9B%BC%E5%90%A7%E7%A5%9E%E8%B4%B4/</loc>
+    <lastmod>2022-05-13T19:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E7%A0%81%E9%9A%99%E7%A2%8E%E7%AC%94/</loc>
+    <lastmod>2022-05-13T19:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2022-05-13T19:35:02+08:00</lastmod>
   </url><url>
     <loc>https://example.com/blog/%E5%81%B6%E7%84%B6%E5%9C%B0%E5%8F%A4%E8%AF%8D%E6%94%B6%E9%9B%86/</loc>
     <lastmod>2022-05-05T09:27:13+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E5%8F%A4%E8%AF%8D/</loc>
-    <lastmod>2022-05-05T09:27:13+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/%E7%A0%81%E9%9A%99%E7%A2%8E%E7%AC%94/</loc>
     <lastmod>2022-05-05T09:27:13+08:00</lastmod>
   </url><url>
     <loc>https://example.com/blog/mayday/</loc>
