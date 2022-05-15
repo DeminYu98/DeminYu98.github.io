@@ -23,10 +23,61 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 13 May 2022 19:35:07 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 15 May 2022 10:38:42 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>【朝花夕拾】篮球赛</title>
+                <link>https://example.com/blog/5-15/</link>
+                <guid isPermaLink="true">https://example.com/blog/5-15/</guid>
+                <pubDate>Sun, 15 May 2022 10:16:14 &#43;0800</pubDate>
+                
+                    <author>deminyu@qq.com (Demin)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;!-- &gt; 近来天气
+&gt; 每周经历
+&gt; 技术储备
+&gt; 论文阅读
+&gt; 研究进展
+&gt; 心得感悟 --&gt;
+&lt;p&gt;不知不觉间，五月就过去了一半。最近的哈尔滨可以称得上是一年中最好的季节，天气宜人，不冷不热，简直是打球的最佳时刻。出于各种原因，原定于最近举办的“光熙杯”篮球赛又被推迟了一周，不免让人掉了胃口，刚开始的兴奋劲儿少了大半。但反过来想，推迟也就有了更多的时间去准备与提升，当然也是给自己找一个打球的理由。想来在封校的毕业季中，隔三差五的就抱着球去球场，在配上这大好天气，也不失为一件乐事。凭着年轻，希望我们队能取得不错的成绩。&lt;/p&gt;
+&lt;p&gt;不知为何，五一假期后的状态变得迷离，一部分原因是因为把很多事情的&lt;code&gt;deadline&lt;/code&gt;定的很远，就让自己少了很多动力，直观上就是经常不愿意学习转而去做一些杂七杂八的小事儿了，导致最近几天的压力陡然增大。而且最近的学习似乎是报复似的，各种不顺利，往往一整天下来也没有实质地输出，安培的每日计划一拖再拖。有点小烦躁讲道理。然而抱怨也没啥，只能尽量调整回自己的五一时的状态，去回归早九晚九的节奏。&lt;/p&gt;
+&lt;p&gt;想到这，回忆现在和五一假期时的状态一比较，简直是差生和优等生的差别。耐心钻研的心气儿降了许多。而且当时计划要读的书《费曼》《娱乐至死》，也都没有坚持读下去。自己倒像是更乐于短期娱乐了，失败！总而言之，最近需要尽快调整回自己的状态，不再去荒废时间，回归三四月份时的正常节奏，并且强迫自己去阅读。效果如何，拭目以待！&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://example.com/blog/">blog</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/">Tags</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>【码隙碎笔】两个七年</title>
